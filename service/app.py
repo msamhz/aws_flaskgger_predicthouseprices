@@ -79,6 +79,6 @@ def predict_note_file():
     
     return str(list(prediction))
 
-    
-if __name__ == '__main__':
-    app.run(debug = True)
+# setting port 80
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=80)
