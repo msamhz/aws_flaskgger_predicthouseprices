@@ -12,7 +12,7 @@
 docker run -d -p 8000:80 -e AWS_DEFAULT_REGION=$AWS_REGION -e DDB_TABLE_NAME=$TABLE_NAME predicthouse``
 
 5) Check url with another terminal 
--->> Copy paste link (http format) 
+>> Copy paste link (http format) 
 
 6) Proceed to push into Repo (provided already created)
 
