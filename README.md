@@ -45,7 +45,7 @@ ECS >> Click Cluster link >> Create new task >> Create
   - env keys 
   
 ### Run task 
-  --> actions --> run task 
+  >> Actions >> run task 
   
   Launch type: Fargate 
   Cluster VPC: Need setup 
