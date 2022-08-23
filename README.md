@@ -25,12 +25,12 @@ docker push $MONO_ECR_REPOSITORY_URI:latest``
 ### Navigating into AWS ### 
 
 # To check for latest push into repo 
---> ECR --> repo --> check for latest image tag
+ECR >> repo >> check for latest image tag
 
 Copy down URL (in order to set up in)
 
 # To create task using image 
---> ECS --> Click Cluster link --> Create new task --> Create
+ECS >> Click Cluster link >> Create new task >> Create
 
 1) Create task definition name 
 2) network: awsvpc
