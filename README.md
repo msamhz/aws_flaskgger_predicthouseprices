@@ -47,12 +47,12 @@ ECS >> Click Cluster link >> Create new task >> Create
 ### Run task 
 >> Actions >> run task 
 
-Launch type: Fargate 
-Cluster VPC: Need setup 
-Subnets: Need setup 
-Security groups: Create new security group
-Auto-assign public IP: Enabled 
+1) Launch type: Fargate 
+2) Cluster VPC: Need setup 
+3) Subnets: Need setup 
+4) Security groups: Create new security group
+5) Auto-assign public IP: Enabled 
   
 
 ### Assess IP from public IP address 
-IP ADDRESS/apidocs
+>> IP ADDRESS/apidocs
