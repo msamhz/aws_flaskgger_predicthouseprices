@@ -22,14 +22,14 @@ docker push $MONO_ECR_REPOSITORY_URI:latest``
 
 ---
 
-### Navigating into AWS ### 
+## Navigating into AWS ### 
 
-# To check for latest push into repo 
+### To check for latest push into repo 
 ECR >> repo >> check for latest image tag
 
 Copy down URL (in order to set up in)
 
-# To create task using image 
+### To create task using image 
 ECS >> Click Cluster link >> Create new task >> Create
 
 1) Create task definition name 
@@ -44,7 +44,7 @@ ECS >> Click Cluster link >> Create new task >> Create
   - port mapping (if anny): 80 
   - env keys 
   
-  #   Run task 
+### Run task 
   --> actions --> run task 
   
   Launch type: Fargate 
@@ -54,5 +54,5 @@ ECS >> Click Cluster link >> Create new task >> Create
   Auto-assign public IP: Enabled 
   
 
-# Assess IP from public IP address 
+### Assess IP from public IP address 
 IP ADDRESS/apidocs
