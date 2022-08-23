@@ -45,13 +45,13 @@ ECS >> Click Cluster link >> Create new task >> Create
   - env keys 
   
 ### Run task 
-  >> Actions >> run task 
-  
-  Launch type: Fargate 
-  Cluster VPC: Need setup 
-  Subnets: Need setup 
-  Security groups: Create new security group
-  Auto-assign public IP: Enabled 
+>> Actions >> run task 
+
+Launch type: Fargate 
+Cluster VPC: Need setup 
+Subnets: Need setup 
+Security groups: Create new security group
+Auto-assign public IP: Enabled 
   
 
 ### Assess IP from public IP address 
