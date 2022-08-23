@@ -1,4 +1,4 @@
-## Self-guidance on using aws (Trial Account)
+## Self Guidance (AWS Trial Account)
 ---
 1) git clone https://github.com/msamhz/aws_flaskgger_predicthouseprices.git
 
