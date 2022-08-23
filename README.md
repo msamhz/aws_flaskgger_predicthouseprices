@@ -16,9 +16,9 @@ docker run -d -p 8000:80 -e AWS_DEFAULT_REGION=$AWS_REGION -e DDB_TABLE_NAME=$TA
 
 6) Once ok, push 
 
-MONO_ECR_REPOSITORY_URI=$(aws ecr describe-repositories | jq -r .repositories[].repositoryUri | grep mono)
+```MONO_ECR_REPOSITORY_URI=$(aws ecr describe-repositories | jq -r .repositories[].repositoryUri | grep mono)
 docker tag predicthouse:latest $MONO_ECR_REPOSITORY_URI:latest
-docker push $MONO_ECR_REPOSITORY_URI:latest
+docker push $MONO_ECR_REPOSITORY_URI:latest```
 ---
 
 ### Navigating into AWS ### 
