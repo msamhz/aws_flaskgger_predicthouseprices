@@ -1,5 +1,5 @@
-Self-guidance on using aws 
-
+## Self-guidance on using aws 
+---
 1) git clone https://github.com/msamhz/aws_flaskgger_predicthouseprices.git
 
 2) Cd into /aws_flaskgger_predicthouseprices/service
@@ -20,3 +20,4 @@ MONO_ECR_REPOSITORY_URI=$(aws ecr describe-repositories | jq -r .repositories[].
 docker tag predicthouse:latest $MONO_ECR_REPOSITORY_URI:latest
 docker push $MONO_ECR_REPOSITORY_URI:latest
 
+---
