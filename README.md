@@ -45,7 +45,7 @@ ECS >> Click Cluster link >> Create new task >> Create
   - env keys 
   
 ### Run task 
->> Actions >> run task 
+Actions >> run task 
 
 1) Launch type: Fargate 
 2) Cluster VPC: Need setup 
@@ -55,4 +55,4 @@ ECS >> Click Cluster link >> Create new task >> Create
   
 
 ### Assess IP from public IP address 
->> IP ADDRESS/apidocs
+IP ADDRESS/apidocs
